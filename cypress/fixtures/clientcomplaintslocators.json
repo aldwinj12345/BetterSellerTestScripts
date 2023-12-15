@@ -1,0 +1,47 @@
+{
+    "PageTitle":"div > h3",
+    "AddButton":"div.space-x-4 > button",
+    "ClientComplaintFormModal":[
+        {
+            "modal":"div.opacity-100 > div.inline-block",
+            "modaltitle":"div.inline-block > div.flex > h4",
+            "PartnersAccountLabelandSelectPartnersAccountButton":"form > div > div:nth-child(1)",
+            "TypeofComplaintLabelandTheLists":"form > div > div:nth-child(2)",
+            "HowmanytimeshasthisclientreachedoutregardingthisissuetoyouLabelandDropdownMenu":"form > div > div:nth-child(3)",
+            "UrgencyLevelLabelandDropdownMenu":"form > div > div:nth-child(4)",
+            "AdditionalInformationScreenshotsLabelandButton":"form > div > div:nth-child(5)",
+            "AnyAdditionalNotesRelatedToThisComplaintLabelandTextareafield":"form > div > div:nth-child(6)",
+            "CancelButton":"form > div > div:nth-child(7) > button:nth-child(1)",
+            "SubmitButton":"form > div > div:nth-child(7) > button:nth-child(2)"
+        }
+    ],
+    "ComplaintViewModal":[
+        {
+            "modal":"div > div.inline-block",
+            "modaltitle":"div > h4",
+            "PartnersAccountLabelandPartnerAccountsName":"div.py-8 > div.pb-5 > div:nth-child(1)",
+            "PartnersAccountNameLabelandPartnersAccountFullName":"div.py-8 > div.pb-5 > div:nth-child(2)",
+            "SubmittedDateLabelandTheDate":"div.py-8 > div.pb-5 > div:nth-child(3)",
+            "SubmittedByLabelandTheSubmitter":"div.py-8 > div.pb-5 > div:nth-child(4)",
+            "SalesRepresentativeLabelandSalesRepName":"div.py-8 > div.pb-5 > div:nth-child(5)",
+            "ProjectManagerLabelandTheProjectManagerFullName":"div.py-8 > div.pb-5 > div:nth-child(6)",
+            "TypeLabelandTheselectedType":"div.py-8 > div.pb-5 > div:nth-child(7)",
+            "OccurentLabelandTheselectedOccurent":"div.py-8 > div.pb-5 > div:nth-child(8)",
+            "FilesUploadedByClientLabelandTheUploadedFILE":"div.py-8 > div.mt-4 > div:nth-child(1)",
+            "AdditionalNotesLabelandTheNote":"div.py-8 > div.mt-4 > div:nth-child(2)",
+            "MarkasResolvedButton":"div.grid-cols-4 > div.px-4 > button",
+            "UrgencyLevelNumber":"div.grid-cols-4 > div.px-4 > div > span:nth-child(1)",
+            "Status":"div.grid-cols-4 > div.px-4 > div > span:nth-child(2)",
+            "uploadedfiles":"div.mt-4 > div.col-span-3 > div > div > img"
+        }
+    ],
+    "MarkasResolvedModal":[
+        {
+            "modal":"div.opacity-100 > div.inline-block",
+            "modaltitle":"div.opacity-100 > div.inline-block > div > h4",
+            "TellUsHowYouResolveTheProblemLabelandTextareafield":"form > div.space-y-8 > div:nth-child(1)",
+            "CancelButton":"div.space-y-8 > div.flex > button:nth-child(1)",
+            "SubmitButton":"div.space-y-8 > div.flex > button:nth-child(2)"
+        }
+    ]
+}

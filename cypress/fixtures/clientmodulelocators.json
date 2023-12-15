@@ -1,0 +1,400 @@
+{
+    "titlenavmodules":"div#afterclass > div > div.w-full",
+    "clientmodulesubfolderslink": [
+        {
+            "activeclients":"div#afterclass > div > a[href='/clients/active']",
+            "foronboarding":"div#afterclass > div > a[href='/clients/foronboarding']",
+            "fortermination":"div#afterclass > div > a[href='/clients/fortermination']",
+            "inactiveclients":"div#afterclass > div > a[href='/clients/inactive']",
+            "allclients":"div#afterclass > div > a[href='/clients/all']",
+            "records":"div#afterclass > div > a[href='/clients/records']",
+            "ratingdashboard":"div#afterclass > div > a[href='/clients/performance-ratings']",
+            "accountperformance":"div#afterclass > div > a[href='/clients/accounts-performance']",
+            "ppcdashboard":"div#afterclass > div > a[href='/clients/ppc']",
+            "complaints":"div#afterclass > div > a[href='/clients/complaints']"
+        }
+    ],
+    "testclient":"div.bg-white tr:first-child td:nth-child(1) > a",
+    "testclientpagemaintitle":"div.items-center > h1.text-3xl",
+
+    "clientdashboardtab": [
+        {
+            "clientdashboardtablink":"nav.flex > a:nth-child(1)"
+        },
+        {
+            "profiletab":"ALL LOCATORS IN HERE ARE UNDER THE CLIENT DASHBOARD > PROFILE TAB",
+            "profiletablink":"div.tablinks > a:nth-child(1)",
+            "overviewprofiletabtitle":"div.justify-between.items-center > h4.text-2xl",
+            "uploadphotosection":"div.col-span-2 > div.relative",
+            "uploadinputbutton":"div.col-span-2 > div.relative > input",
+            "overviewclientinformation":[
+                {
+                    "contactnamelabel":"dl.col-span-8 >dt:nth-child(1)",
+                    "contactname":"dl.col-span-8 >dd:nth-child(2)",
+                    "contactnumberlabel":"dl.col-span-8 >dt:nth-child(3)",
+                    "contactnumber":"dl.col-span-8 >dd:nth-child(4)",
+                    "addresslabel":"dl.col-span-8 >dt:nth-child(5)",
+                    "address":"dl.col-span-8 >dd:nth-child(6)",
+                    "clientsemailaddresslabel":"dl.col-span-8 >dt:nth-child(7)",
+                    "clientsemailaddress":"dl.col-span-8 >dd:nth-child(8)",
+                    "sellerinteractiveemailaddresslabel":"dl.col-span-8 >dt:nth-child(9)",
+                    "sellerinteractiveemailaddress":"dl.col-span-8 >dd:nth-child(10)"
+                }
+            ],
+            "kebabbuttonmenu":"div.space-y-8 > div.items-center > div.space-x-4 > div.text-sm > div > button",
+            "editprofilesubmenu":"div.px-1 > a[role=menuitem]",
+            "editprofilepage":[
+                {
+                    "clientnamelabel":"div.col-span-2 > label",
+                    "clientnameinputfield":"div.col-span-2 > input[name='client']",
+                    "updatebutton":"div.space-x-4 > button[type=submit]"
+                }
+            ],
+            "updatepasswordsubmenu":"div.px-1 > button:nth-child(2)",
+            "updatedefaultcontactpasswordmodal":[
+                {
+                    "modal":"div.rounded-xl",
+                    "modaltitle":"h3 > div.flex > span",
+                    "newpasswordinputfieldlabel":"form > div > :nth-child(1) > .text-sm",
+                    "newpasswordinputfield":"div.col-span-2 > input[name='newPassword']",
+                    "confirmnewpasswordinputfieldlabel":"form > div > :nth-child(2) > .text-sm",
+                    "confirmnewpasswordinputfield":"div.col-span-2 > input[name='confirmPassword']",
+                    "cancellinktextbutton":"div.space-x-4 > button.text-red-500",
+                    "resetbutton":"div.space-x-4 > button.px-12",
+                    "newpasswordrequiredtexterror":"form > div > div:nth-child(1) > div.text-red-700",
+                    "confirmnewpasswordrequiredtexterror":"form > div > div:nth-child(2) > div.text-red-700"
+                }
+            ],
+            "updatedefaultcontactsubmenu":"div.px-1 > button:nth-child(3)",
+            "updatedefaultcontactdetailsmodal":[
+                {
+                    "modal":"div.rounded-xl",
+                    "modaltitle":"h3 > div.flex > span",
+                    "firstnameinputfieldlabel":"form > div > :nth-child(1) > .text-sm",
+                    "firstnameinputfield":"div.col-span-2 > input[name='firstName']",
+                    "lastnameinputfieldlabel":"form > div > :nth-child(2) > .text-sm",
+                    "lastnameinputfield":"div.col-span-2 > input[name='lastName']",
+                    "emailinputfieldlabel":"form > div > :nth-child(3) > .text-sm",
+                    "emailinputfield":"div.col-span-2 > input[name='email']",
+                    "cancellinktextbutton":"div.space-x-4 > button.text-red-500",
+                    "updatebutton":"div.space-x-4 > button.px-12"
+                }
+            ]
+        },
+        {
+            "onboardingtab":""
+        },
+        {
+            "filestab":" ALL LOCATORS IN HERE ARE UNDER ONLY THE FILES TAB PAGE",
+            "filestablink":"div.tablinks > a:nth-child(3)",
+            "filestabmaintitle":"div.client-content > div > div > h4",
+            "uploadafileuploadinput":"div.col-span-1 > input",
+            "dropfileorclicktoselectuploadlabel":"div.file-drop-target > div > div > span",
+            "gridmodebutton":"div.space-x-1 > div:nth-child(1) > button > span",
+            "listmodebutton":"div.space-x-1 > div:nth-child(2) > button > span",
+            "uploadattachmentsbutton":"div.mt-4 > button.px-4"
+        },
+        {
+            "mockup":""
+        },
+        {
+            "proposal":""
+        },
+        {
+            "admin":""
+        }
+
+    ],
+    "billingtab":[
+        {
+            "billingtablink":"nav.flex > a:nth-child(2)"
+        },
+        {
+            "Subscriptionstab":"ALL ELEMENTS UNDER THIS ARE ONLY AT THE BILLING > SUBSCRIPTIONS TAB",
+            "subscriptionstablink":"div.tablinks > a:nth-child(1)",
+            "overview":[
+                {
+                    "overviewtitle":"div.client-content > div.px-8 > h4.text-2xl",
+                    "clientlabel":"div.client-content > div.px-8 > dl:nth-child(2) > dt:nth-child(1)",
+                    "actualclientfullname":"div.client-content > div.px-8 > dl:nth-child(2) > dd:nth-child(2)",
+                    "subscriptionnumberlabel":"div.client-content > div.px-8 > dl:nth-child(2) > dt:nth-child(3)",
+                    "subscriptionnumber":"div.client-content > div.px-8 > dl:nth-child(2) > dd:nth-child(4)",
+                    "statuslabel":"div.client-content > div.px-8 > dl:nth-child(2) > dt:nth-child(5)",
+                    "status":"div.client-content > div.px-8 > dl:nth-child(2) > dd:nth-child(6) > div > span",
+                    "billingaddresslabel":"div.client-content > div.px-8 > dl:nth-child(2) > dt:nth-child(7)",
+                    "billingaddress":"div.client-content > div.px-8 > dl:nth-child(2) > dd:nth-child(8)",
+                    "activationdatelabel":"div.client-content > div.px-8 > dl:nth-child(2) > dt:nth-child(9)",
+                    "activationdate":"div.client-content > div.px-8 > dl:nth-child(2) > dd:nth-child(10)",
+                    "startdatelabel":"div.client-content > div.px-8 > dl:nth-child(2) > dt:nth-child(11)",
+                    "startdate":"div.client-content > div.px-8 > dl:nth-child(2) > dd:nth-child(12)",
+                    "validuntildatelabel":"div.client-content > div.px-8 > dl:nth-child(2) > dt:nth-child(13)",
+                    "validuntildate":"div.client-content > div.px-8 > dl:nth-child(2) > dd:nth-child(14)"
+                }
+            ],
+            "planandaddondetailstable":[
+                {
+                    "planacquired":"table.min-w-full > tbody > tr:nth-child(1) td:nth-child(1)",
+                    "addadescriptiondefaulttext":"tbody > tr:nth-child(1) td:nth-child(1) > div > div > div:nth-child(1)",
+                    "addadescriptiontextareafield":"tbody > tr:nth-child(1) td:nth-child(1) > div > div:nth-child(1) > textarea",
+                    "pressctrlentertosave":"tbody > tr:nth-child(1) td:nth-child(1) > div > div:nth-child(2) > sub",
+                    "plusaddadescriptionlinktext":"tbody > tr:nth-child(1) td:nth-child(1) > div > div > div.text-red-500"
+                }
+            ],
+            "notesarea":[
+                {
+                    "noteslabelsectionarea":"div.client-updates > div:nth-child(4) > div:nth-child(1) > span:nth-child(1)",
+                    "notesareaaddlinktext":"div.client-updates > div:nth-child(4) > div:nth-child(1) > div > button",
+                    "addnotemodal":[
+                        {   
+                            "modal":"div.relative > div.tail",
+                            "addnotemodaltitle":"div.relative > div.tail > div.py-2",
+                            "addnotemodaltextareafield":"div.relative > div.tail > div.px-2 > textarea[name='newDescription']",
+                            "savebutton":"div.relative > div.tail > div.p-2 > button.bg-red-500",
+                            "cancelbutton":"div.relative > div.tail > div.p-2 > button.bg-gray-100"
+                        }
+                    ],
+                    "defaultnotecreated":[
+                        {
+                            "noteicon":"div.flex > div.flex-none > svg",
+                            "existingnote":"div.flex > div.pl-1 > span.whitespace-pre-wrap",
+                            "whocreatedtheexistingnote":"div.flex > div.pl-1 > span.text-gray-500",
+                            "existingnotedatecreated":"div.flex > div.text-gray-400 > div > span",
+                            "existingnotedeleteicon":"div.flex > div.text-gray-400 > div > button > svg"
+                        }
+                    ],
+                    "newaddednotesection":[
+                        {
+                            "divisionsection":"div.client-updates > div:nth-child(4) > div:nth-child(3)",
+                            "noteicon":"div.client-updates > div:nth-child(4) > div:nth-child(3) > div.flex-none > svg",
+                            "newlyaddednote":"div.client-updates > div:nth-child(4) > div:nth-child(3) > div.pl-1 > span.whitespace-pre-wrap",
+                            "whocreatedthenewlyaddednote":"div.client-updates > div:nth-child(4) > div:nth-child(3) > div.pl-1 > span.text-gray-500",
+                            "newlyaddednotedate":"div.client-updates > div:nth-child(4) > div:nth-child(3) > div.text-gray-400 > div > span",
+                            "newlyaddedmotedeleteicon":"div.client-updates > div:nth-child(4) > div:nth-child(3) > div.text-gray-400 > div > button > svg",
+                            "deleteconfirmationdialog":[
+                                {
+                                    "modal":"div.min-h-screen > div.inline-block",
+                                    "modaltitle":"div.min-h-screen > div.inline-block > h3",
+                                    "areyousureyouwanttodeletethisnote":"div.min-h-screen > div.inline-block > div.my-8 > div",
+                                    "yesbutton":"div.min-h-screen > div.inline-block > div.mt-4 > button:nth-child(2)",
+                                    "nobutton":"div.min-h-screen > div.inline-block > div.mt-4 > button:nth-child(1)"
+                                }
+                            ]
+                        }   
+                    ]
+                }
+            ],
+            "kebabmenubutton":"div.p-2 >div.justify-between > div.flex > div.text-sm > div > button",
+            "chargeonetimeaddonsubmenubutton":"div.text-sm > div > div:nth-child(1) > button:nth-child(1)",
+            "chargeonetimeaddonmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.px-4 > h3",
+                    "addon1mainlabel":"form > div.grid > div:nth-child(1) > span",
+                    "addon1deletebutton":"form > div.grid > div:nth-child(1) > button",
+                    "addondropdownlabel":"form > div.grid > div:nth-child(2) > label",
+                    "addondropdownmenu":"form > div.grid > div:nth-child(2) > select[name='addons.0.addon_code']",
+                    "typelabel":"form > div.grid > div:nth-child(3) > label",
+                    "typepredefined":"form > div.grid > div:nth-child(3) > div",
+                    "qtylabel":"form > div.grid > div:nth-child(4) > label",
+                    "qtyinputfield":"form > div.grid > div:nth-child(4) > input[name='addons.0.quantity']",
+                    "pricelabel":"form > div.grid > div:nth-child(5) > label",
+                    "priceinputfield":"form > div.grid > div:nth-child(5) > div > input",
+                    "totallabel":"form > div.grid > div:nth-child(6) > label",
+                    "totalresult":"form > div.grid > div:nth-child(6) > span",
+                    "addondescriptiontextareafield":"form > div.grid > div:nth-child(7) >textarea[name='addons.0.addon_description']",
+                    "addondescriptionmaxcharactersallowedinfo":"form > div.grid > div:nth-child(7) >div > div:nth-child(2)",
+                    "addonbutton":"form > div:nth-child(2) > button",
+                    "cancelbutton":"form > div:nth-child(3) > div > button:nth-child(1)",
+                    "applybutton":"form > div:nth-child(3) > div > button:nth-child(2)",
+                    "addoncodeisrequirederrortext":"form > div > div:nth-child(2) > div"
+                }
+            ],
+            "onetimechargesubmenubutton":"div.text-sm > div > div:nth-child(1) > button:nth-child(2)",
+            "onetimechargemodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.px-4 > h3",
+                    "descriptiontextareafieldlabel":"form > div.col-span-12  > label",
+                    "descriptiontextareafield":"form > div.col-span-12  > textarea[name='description']",
+                    "descriptiontextareafieldmaxchractersallowedinfo":"form > div.col-span-12  > div > div:nth-child(2)",
+                    "amountinputfieldlabel":"form > div.col-span-6 > label",
+                    "amountinputfielddollarsignsymbolandcurrencyusd":"div.px-4 > form > div.col-span-6 > div > div",
+                    "amountinputfield":"form > div.col-span-6 > div > input[name='amount']",
+                    "cancelbutton":"div.px-4 > form > div.col-span-2 > div > button.text-red-500",
+                    "applybutton":"div.px-4 > form > div.col-span-2 > div > button.text-white",
+                    "descriptionisarequiredfielderrortext":"div.flex > div.font-normal"
+                }
+            ],
+            "pausesubscriptionsubmenubuton":"div.text-sm > div > div:nth-child(2) > button:nth-child(1)",
+            "cancelsubscriptionsubmenubutton":"div.text-sm > div > div:nth-child(2) > button:nth-child(2)"
+        },
+        {
+            "Upsellstab":"ALL ELEMENTS UNDER THIS ARE ONLY AT THE BILLING > UPSELLS TAB",
+            "upsellstablink":"div.tablinks > a:nth-child(2)",
+            "upselltitletabpage":"div.items-center > h2",
+            "createupsellbutton":"div.space-x-4 > button",
+            "createupsellmodal":[
+                {
+                    "modal":"div.opacity-100 > div.transition-all",
+                    "modaltitle":"div > h3.text-gray-800",
+                    "upsellitemdropdownmenulabel":"div.grid > div:nth-child(1) > label.text-gray-500",
+                    "upsellitemdropdownmenu":"div.grid > div:nth-child(1) > select",
+                    "quantitylabel":"div.grid > div:nth-child(2) > label.text-gray-500",
+                    "quantityinputfield":"div.grid > div:nth-child(2) > input",
+                    "unitpricelabel":"div.grid > div:nth-child(3) > label.text-gray-500",
+                    "unitpriceinputfielddollarsymbol":"div.grid > div:nth-child(3) > div > span.text-grayscale-700",
+                    "unitpriceinputfield":"div.grid > div:nth-child(3) > div > input",
+                    "upselldescriptionlabel":"div.grid > div:nth-child(4) > label.text-gray-500",
+                    "upselldescriptiontextareafield":"div.grid > div:nth-child(4) >textarea",
+                    "managedasinlabel":"div.px-8 > form > div.text-gray-800",
+                    "asin1defaultlabel":"div.grid > div.mt-4 > span.text-gray-500",
+                    "asin1defaultinputfield":"div.grid > div.col-span-2 > input",
+                    "addserviceasinbutton":"div.col-span-12 > button.border-blue-900",
+                    "notetextareafieldlabel":"div.flex > label.text-gray-500",
+                    "notetextareafield":"div.flex > span > textarea",
+                    "saveasdraftbutton":"form > div.flex >button:nth-child(1)",
+                    "submitbutton":"form > div.flex >button:nth-child(2)",
+                    "upsellitemisrequiredtexterror":"div.grid > div:nth-child(1) > div.text-red-700",
+                    "descriptionisrequiredtexterror":"div.grid > div:nth-child(4) > div.text-red-700",
+                    "serviceasinitemisrequiredtexterror":"div.grid > div:nth-child(2) > div.text-red-700",
+                    "selectavailableasintoaddbutton":"div.relative > button.bg-orange-700",
+                    "selectavailableasinsearchinputfield":"div.relative > div.px-4 > div.relative > input",
+                    "availableasinslabel":"div.h-52 > div.flex > span",
+                    "selectallbutton":"div.h-52 > div.flex > button",
+                    "waiveupsellfeelabel":"div.grid > div:nth-child(4) > label.text-gray-500",
+                    "waiveupsellbuttonslideswitch":"div.grid > div:nth-child(4) > button"
+                }
+            ],
+            "upsellrequestmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.px-4 > h3",
+                    "yourpanelwasrejectedsectionarea":"div.p-8 > div.mb-4",
+                    "yourpanelwasrejectedsectionareatitle":"div.p-8 > div.mb-4 > p.text-red-500",
+                    "rejectedbylabel":"div.p-8 > div.mb-4 > label:nth-child(2)",
+                    "projectmanagername":"div.p-8 > div.mb-4 > p:nth-child(3)",
+                    "reasonforrejection":"div.p-8 > div.mb-4 > label:nth-child(4)",
+                    "rejectionreason":"div.p-8 > div.mb-4 > p:nth-child(5)",
+                    "statuslabel":"div.mt-3 > div > div:nth-child(8) >label",
+                    "statusrejected":"div.mt-3 > div > div:nth-child(8) >span"
+                }
+
+            ],
+            "resendmodal":[
+                {
+                    "modal":"div.min-h-screen > div.inline-block",
+                    "modaltitle":"div.min-h-screen > div.inline-block > h3",
+                    "cancelbutton":"div.min-h-screen > div.inline-block > div.items-center > button.text-grayscale-700 ",
+                    "resendbutton":"div.min-h-screen > div.inline-block > div.items-center > button.text-white"
+                }
+            ]
+        },
+        {
+            "creditnotestab":"ALL ELEMENTS UNDER THIS ARE ONLY AT THE BILLING > CREDIT NOTES TAB",
+            "creditnotestablink":"div.tablinks > a:nth-child(4)",
+            "creditnotestitlepage":"div.flex > div.items-center > h2.font-bold",
+            "createcreditbutton":"div.space-x-2 > button",
+            "creditrequestmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.inline-block > div > h3",
+                    "createcreditbutton":"div.space-x-2 > button",
+                    "creditnotenamelabel":"form > div.mt-6 > div:nth-child(1) > label",
+                    "creditnotenameinputfield":"form > div.mt-6 > div:nth-child(1) > input",
+                    "descriptionlabel":"form > div.mt-6 > div:nth-child(2) > label",
+                    "descriptiontextareafield":"form > div.mt-6 > div:nth-child(2) > textarea",
+                    "requestnotelabel":"form > div.mt-6 > div:nth-child(3) > label",
+                    "requesternotetextareafield":"form > div.mt-6 > div:nth-child(3) > textarea",
+                    "creditrequestamountlabel":"form > div.mt-6 > div:nth-child(4) > label",
+                    "creditrequestamountinputfield":"form > div.mt-6 > div:nth-child(4) > div",
+                    "saveasdraftbutton":"form > div.mt-6 > div:nth-child(5) > button:nth-child(1)",
+                    "submitbutton":"form > div.mt-6 > div:nth-child(5) > button:nth-child(2)",
+                    "errortext1":"form > div.mt-6 > div:nth-child(1) > div",
+                    "errortext2":"form > div.mt-6 > div:nth-child(2) > div",
+                    "errortext3":"form > div.mt-6 > div:nth-child(3) > div"
+                }
+            ],
+            "cancelcreditnotemodal":[
+                {
+                    "modal":"div.min-h-screen > div.inline-block",
+                    "modaltitle":"div.min-h-screen > div.inline-block > h3",
+                    "creditnotenamelabelandThecreditnotename":"div.my-8 > div.text-gray-500 > div > span:nth-child(1)",
+                    "amountlabelanditsamount":"div.my-8 > div.text-gray-500 > div > span:nth-child(2)",
+                    "nobutton":"div.my-8 > div.mt-4 > button:nth-child(1)",
+                    "yesbutton":"div.my-8 > div.mt-4 > button:nth-child(2)"
+                }
+            ]
+        },
+        {
+            "InvoiceHistoryTab":"ALL ELEMENTS UNDER THIS ARE ONLY AT THE BILLING > INVOICE HISTORY TAB",
+            "invoicehistorytablink":"div.tablinks > a:nth-child(5)"
+        },
+        {
+            "TransactionsTab":"ALL ELEMENTS UNDER THIS ARE ONLY AT THE BILLING > TRANSACTIONS TAB",
+            "transactionstablink":"div.tablinks > a:nth-child(5)"
+        },
+        {
+            "CommissionsTab":"ALL ELEMENTS UNDER THIS ARE ONLY AT THE BILLING > COMMISSIONS TAB",
+            "commissionstablink":"div.tablinks > a:nth-child(6)"
+        },
+        {
+            "CommErrorsTab":"ALL ELEMENTS UNDER THIS ARE ONLY AT THE BILLING > COMM.ERRORS TAB",
+            "commerrorstablink":"div.tablinks > a:nth-child(7)"
+        }
+    ],
+    "task":[
+
+    ],
+    "terminate":[
+        {
+            "terminatelinkbutton":"div.main-content-inner2 > div.pr-5 > div > button.text-error-dark",
+            "terminationongoing":"div.main-content-inner2 > div.pr-5 > div >p.text-error-dark",
+            "terminaterequestmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.p-5 > div > h4",
+                    "clientname":"div.p-5 > div > h5",
+                    "reasonforterminationlabel":"form > div.space-y-6 > div:nth-child(1) > label",
+                    "selectreasondropdownmenu":"form > div.space-y-6 > div:nth-child(1) > div > select",
+                    "Errortext1":"form > div.space-y-6 > div:nth-child(1) > div > div",
+                    "Errortext2":"form > div.space-y-6 > div:nth-child(3) > div:nth-child(2)",
+                    "RetentionEffortChecklistlabel":"form > div.space-y-6 > div:nth-child(2) > label",
+                    "RetentionEffortChecklistNote":"form > div.space-y-6 > div:nth-child(2) > div > label",
+                    "additionalnoteslabel":"form > div.space-y-6 > div:nth-child(4) > label",
+                    "additionalnotestextareafield":"form > div.space-y-6 > div:nth-child(4) > div > textarea",
+                    "Errortext3":"form > div.space-y-6 > div:nth-child(4) > div > div",
+                    "Errortext4":"form > div.space-y-6 > div:nth-child(2) > div > div",
+                    "cancelbutton":"form > div.space-y-6 > div:nth-child(5) > button:nth-child(1)",
+                    "requestforterminationbutton":"form > div.space-y-6 > div:nth-child(5) > button:nth-child(2)",
+                    "denybutton":"form > div.space-y-6 > div:nth-child(4) > button:nth-child(1)",
+                    "approvebutton":"form > div.space-y-6 > div:nth-child(4) > button:nth-child(2)",
+                    "Lettherequestorknowwhyareyoudenyingtherequest":"form > div.space-y-6 > h5",
+                    "reasonfordenyinglabel":"form > div.space-y-6 > div:nth-child(2) > label",
+                    "gobackbutton":"form > div.space-y-6 > div:nth-child(3) > button:nth-child(1)",
+                    "submitbutton":"form > div.space-y-6 > div:nth-child(3) > button:nth-child(2)",
+                    "terminationdeniedNotes":[
+                        {
+                            "backgroundcolor":"div.p-5 > div > div.bg-red-50",
+                            "Yourterminationrequestwasdenied":"div.p-5 > div > div.bg-red-50 > p:nth-child(1)",
+                            "Reasonfordenylabel":"div.p-5 > div > div.bg-red-50 > label",
+                            "inputtedreasonfordeny":"div.p-5 > div > div.bg-red-50 > p.text-sm"
+                        }
+                    ]
+                }
+            ],
+            "alertmessagemodal":[
+                {
+                    "modal":"div.overflow-y-auto > div.min-h-full",
+                    "checklogo":"div.overflow-y-auto > div.min-h-full > div > div > svg",
+                    "message":"div.overflow-y-auto > div.min-h-full > div > div"
+                }
+            ],
+            "fortermination":[
+                {
+                    "requeststab":"div#client-lists > div.text-grayscale-700 > a[href='/clients/fortermination']",
+                    "deniedtab":"div#client-lists > div.text-grayscale-700 > a[href='/clients/fortermination/denied']"
+                }
+            ]
+        }
+    ]
+}

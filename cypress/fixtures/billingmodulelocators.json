@@ -1,0 +1,246 @@
+{
+    "Invoices":[
+        {
+            "invoiceslinktextfolder":"div#afterclass > div:nth-child(2) > a:nth-child(2)",
+            "invoiceslinktextfoldericon":"div#afterclass > div > a:nth-child(2) > svg",
+            "invoicemaintitlepage":"div.main-content-inner2 >div > div > h1",
+            "pendingtab":"div.tab-container > nav > button:nth-child(1)",
+            "invoicenumberpage":[
+                {
+                    "invoicenumberpendingtabpagetitle":"div.main-content-inner2 > div > div:nth-child(3) > div:nth-child(1) > div > h5",
+                    "invoicenumberstatus":"div.px-8 > h5 > div > div",
+                    "zohorecentactivitiesbutton":"div.px-8 > h5 > div > button",
+                    "zohorecentactivitiesslidepanel":"div.max-w-md > div.overflow-y-scroll",
+                    "zohorecentactivitiesslidepaneltitle":"div.overflow-y-scroll > div > div > h2",
+                    "sendemailreminderbutton":"",
+                    "sendinvoiceemailbutton":"button[title='Send Email']",
+                    "chargecustomerbutton":"div.space-x-6 > button.text-gray-600:nth-child(3)",
+                    "recordpaymentbutton":"div.space-x-6 > button.text-gray-600:nth-child(4)",
+                    "downloadinvoicebutton":"button[title='Download PDF']",
+                    "voidinvoicebutton":"div.space-x-6 > button.text-gray-600:nth-child(6)",
+                    "writeoffinvoicebutton":"div.space-x-6 > button.text-gray-600:nth-child(7)",
+                    "autocollectontext":"div > span.text-green-500",
+                    "paymentsreceivedlabellink":"div.client-content > div > div:nth-child(3) > div > div > div"
+                }
+            ]
+            
+        }
+    ],
+    "CommissionErrors":[
+        {
+            "commissionerrorslinktextfolder":"div#afterclass > div > a:nth-child(3)",
+            "commissionerrorslinktextfoldericon":"div#afterclass > div > a:nth-child(3) > svg",
+            "commissionerrorsmaintitlepage":""
+        }
+    ],
+    "Payments":[
+        {
+            "paymentslinktextfolder":"div#afterclass > div > a:nth-child(4)",
+            "paymentslinktextfoldericon":"div#afterclass > div > a:nth-child(4) > svg",
+            "paymentsmaintitlepage":""
+        }
+    ],
+    "Events":[
+        {
+            "eventslinktextfolder":"div#afterclass > div > a:nth-child(5)",
+            "eventslinktextfoldericon":"div#afterclass > div > a:nth-child(5) > svg",
+            "eventsmaintitlepage":""
+        }
+    ],
+    "CreditNotes":[
+        {
+            "creditnoteslinktextfolder":"div > a[href='/credit-notes']",
+            "creditnoteslinktextfoldericon":"div > a[href='/credit-notes'] > svg",
+            "creditnotesmaintitlepage":"div > h2",
+            "upselltocreditrequestmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.inline-block > div > h3",
+                    "clientlabel":"div.col-span-1:nth-child(1) > label",
+                    "clientname":"div.col-span-1:nth-child(1)",
+                    "datelabel":"div.col-span-1:nth-child(2) > label",
+                    "date":"div.col-span-1:nth-child(2)",
+                    "upsellitemslabel":"div.col-span-2:nth-child(3) > label",
+                    "upsellitem":"div.col-span-2:nth-child(3)",
+                    "quantitylabel":"div.col-span-1:nth-child(4) > label",
+                    "quantity":"div.col-span-1:nth-child(4)",
+                    "unitpricelabel":"div.col-span-1:nth-child(5) > label",
+                    "unitprice":"div.col-span-1:nth-child(5) > span",
+                    "totallabel":"div.col-span-1:nth-child(6) > label",
+                    "totalamount":"div.col-span-1:nth-child(6) > div > span:nth-child(1)",
+                    "upsellfeewaivedlabel":"div.col-span-1:nth-child(6) > div > span:nth-child(2)",
+                    "upselldescriptionlabel":"div.col-span-2:nth-child(7) > label",
+                    "upselldescription":"div.col-span-2:nth-child(7) > p",
+                    "serviceasinslabel":"div.col-span-2:nth-child(8) > div",
+                    "asinlabel":"div.col-span-2:nth-child(9) > div > label",
+                    "asin1":"div.col-span-2:nth-child(9) > div",
+                    "notelabel":"div.col-span-2:nth-child(10) > label",
+                    "denybutton":"div.space-x-6 > button:nth-child(1)",
+                    "approvebutton":"div.space-x-6 > button:nth-child(2)",
+                    "Whatsthereasonfordenyingthiscreditnoterequest":"div.px-12 > h3",
+                    "deniedtextareafield":"form > div.px-12 > textarea",
+                    "cancelbutton":"form > div.px-12 > div.space-x-12 > button:nth-child(1)",
+                    "denieddenybutton":"form > div.px-12 > div.space-x-12 > button:nth-child(2)",
+                    "requiredtextError":"form > div.px-12 > div.text-red-700",
+                    "Areyousureyouwanttoapprovetherequesttowaivetheupsellfee":"div.max-w-xl > h3",
+                    "Ifyouclickapproveapaidinvoicewillbeautomaticallygenerated":"div.max-w-xl > div.my-8 > div > p",
+                    "approve_cancelbutton":"div.max-w-xl > div.items-center > button:nth-child(1)",
+                    "approve_approvebutton":"div.max-w-xl > div.items-center > button:nth-child(2)"
+                }
+            ],
+            "creditnoterequestmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.inline-block > div > h3",
+                    "clientnameandlabel":"form > div > div:nth-child(1)",
+                    "creditnotenameandlabel":"form > div > div:nth-child(2)",
+                    "descriptionandlabel":"form > div > div:nth-child(3)",
+                    "requesternoteandlabel":"form > div > div:nth-child(4)",
+                    "amountandlabel":"form > div > div:nth-child(5)",
+                    "ApplytonextmonthsinvoicecheckboxandLabel":"form > div > div:nth-child(6) > div:nth-child(1) > label > span",
+                    "creditsavailableandlabel":"form > div > div:nth-child(6) > div:nth-child(2) > div > div:nth-child(1)",
+                    "creditstoapplyandlabel":"form > div > div:nth-child(6) > div:nth-child(2) > div > div:nth-child(2)",
+                    "denybutton":"form > div > div:nth-child(7)  button.bg-error-dark",
+                    "approvebutton":"form > div > div:nth-child(7)  button.bg-success-dark"
+                }
+            ],
+            "Areyousureyouwanttoapplythiscreditamountof":[
+                {
+                    "modal":"div.min-h-screen > div.max-w-xl",
+                    "modaltitle":"div.min-h-screen > div.max-w-xl > h3",
+                    "Autoapplytonextmonthsinvoice":"div.text-grayscale-700 > div.text-left > div",
+                    "IfyouclickApprove":"div.text-grayscale-700 > p",
+                    "cancelbutton":"div.min-h-screen > div.max-w-xl > div.mt-4 > button:nth-child(1)",
+                    "approvebutton":"div.min-h-screen > div.max-w-xl > div.mt-4 > button:nth-child(2)"
+                }
+            ]
+        }
+    ],
+    "Upsells":[
+        {
+            "upsellslinktextfolder":"a.bg-red-50 > span.mt-1",
+            "upsellslinktextfoldericon":"div#afterclass > div > a:nth-child(7) > svg",
+            "upsellsmaintitlepage":"div > h2",
+            "awaitingapprovaltab": [
+                {
+                    "awaitingapprovaltabtitle":"div.tab-container > nav > button:nth-child(1)",
+                    "columnNames":"table > thead.bg-grayscale-200 > tr > th"
+                }
+            ],
+            "upsellrequestmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.px-4 > h3 > div > span",
+                    "denybutton":"div.mt-8 > button.px-12",
+                    "yourpanelwasrejectedsectionarea":"div.p-8 > div.mb-4",
+                    "yourpanelwasrejectedsectionareatitle":"div.p-8 > div.mb-4 > p.text-red-500",
+                    "rejectedbylabel":"div.p-8 > div.mb-4 > label:nth-child(2)",
+                    "projectmanagername":"div.p-8 > div.mb-4 > p:nth-child(3)",
+                    "reasonforrejection":"div.p-8 > div.mb-4 > label:nth-child(4)",
+                    "rejectionreason":"div.p-8 > div.mb-4 > p:nth-child(5)",
+                    "statuslabel":"div.mt-3 > div > div:nth-child(8) >label",
+                    "statusrejected":"div.mt-3 > div > div:nth-child(8) >span",
+                    "approvebutton":"div.mt-8 > button.px-10"
+                }
+            ],
+            "lettheaccountmanagerknowwhyyourejectedtheupsellrequest":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div.px-12 > h3",
+                    "reasonforrejectionlabel":"div.px-12 > div.col-span-12 > div > label",
+                    "reasonforrejectiontextarea":"div.px-12 > div.col-span-12 > div > textarea",
+                    "cancelbutton":"form  > div.flex > button.text-grayscale-800",
+                    "submitbutton":"form  > div.flex > button.text-white",
+                    "requirederrortext":"div.col-span-12 > div > div.text-red-700"
+                }
+            ],
+            "thisupsellrequesthasbeenapproved":[
+                {
+                    "modal":"div.min-h-screen > div.max-w-lg",
+                    "modaltitle":"div.min-h-screen > div.max-w-lg > h3 > div > h3",
+                    "checklogo":"div.min-h-screen > div.max-w-lg > h3 > div > div",
+                    "doyouwanttosendtheclientthebillingsummaryemail":"div.min-h-screen > div.max-w-lg > div > div",
+                    "nobutton":"div.min-h-screen > div.max-w-lg > div.mt-4 > button.text-grayscale-700",
+                    "sendemailbutton":"div.min-h-screen > div.max-w-lg > div.mt-4 > button.text-white"
+                }
+            ],
+            "approvedtab":[
+                {
+                    "approvedtabtitle":"div.tab-container > nav > button:nth-child(2)",
+                    "Resendmodal":[
+                        {
+                            "modal":"div.min-h-screen > div.inline-block",
+                            "modaltitle":"div.min-h-screen > div.inline-block > h3",
+                            "clientemailaddress":"div.min-h-screen > div.inline-block > div.my-8 > div",
+                            "cancelbutton":"div.min-h-screen > div.inline-block > div.items-center > button.text-grayscale-700",
+                            "resendbutton":"div.min-h-screen > div.inline-block > div.items-center > button.text-white"
+                        }
+                    ]
+                }
+            ],
+            "pendingtab":[
+                {
+                    "pendingtabtitle":"div.tab-container > nav > button:nth-child(3)"
+                }
+            ],
+            "rejectedtab":[
+                {
+                    "rejectedtabtitle":"div.tab-container > nav > button:nth-child(5)"
+                }
+
+            ]
+        }
+    ],
+    "UpsellItems":[
+        {
+            "UpsellItemslinktextfolder":"div > a[href='/addons']",
+            "upsellitemmaintitlepage":"div > h1",
+            "addbutton":"div.main-content-inner2 > div > div > div > button:nth-child(2)",
+            "createupsellitemsmodal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "modaltitle":"div > h3",
+                    "InvoiceItemNameinputandlabel":"form > div:nth-child(1) > div:nth-child(1)",
+                    "InvoiceItemCodeinputandlabel":"form > div:nth-child(1) > div:nth-child(2)",
+                    "ItemDescriptionfieldandlabel":"form > div:nth-child(1) > div:nth-child(3)",
+                    "OneTimeFeeinputandlabel":"form > div:nth-child(1) > div:nth-child(4)",
+                    "cancelbutton":"form > div:nth-child(2) > div > button.text-secondary-light",
+                    "savebutton":"form > div:nth-child(2) > div > button:nth-child(2)",
+                    "ErrorText1":"form > div:nth-child(1) > div:nth-child(1) > div.text-red-700",
+                    "ErrorText2":"form > div:nth-child(1) > div:nth-child(2) > div.text-red-700",
+                    "ErrorText3":"form > div:nth-child(1) > div:nth-child(4) > div.text-red-700"
+                }
+            ],
+            "ConfirmDeletemodal":[
+                {
+                    "modal":"div.min-h-screen > div.inline-block",
+                    "modaltitle":"div > h3",
+                    "areyousureyouwanttodeletethisupsell":"div.my-8 > div.text-gray-500",
+                    "yesbutton":"div.justify-center > button:nth-child(2)",
+                    "nobutton":"div.justify-center > button:nth-child(1)"
+                }
+            ]
+        }
+    ],
+    "Taxes":[
+        {
+            "taxeslinktextfolder":"div#afterclass > div > a:nth-child(9)",
+            "taxeslinktextfoldericon":"div#afterclass > div > a:nth-child(9) > svg",
+            "taxesmaintitlepage":""
+        }
+    ],
+    "TaxExemptions":[
+        {
+            "taxeexemptionslinktextfolder":"div#afterclass > div > a:nth-child(10)",
+            "taxeexemptionslinktextfoldericon":"div#afterclass > div > a:nth-child(10) > svg",
+            "taxeexemptionsmaintitlepage":""
+        }
+    ],
+    "Plans":[
+        {
+            "planslinktextfolder":"div#afterclass > div > a:nth-child(11)",
+            "planslinktextfoldericon":"div#afterclass > div > a:nth-child(11) > svg",
+            "plansmaintitlepage":""
+        }
+    ]
+}

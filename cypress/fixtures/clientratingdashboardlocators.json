@@ -1,0 +1,30 @@
+{
+    "pagemaintitle":"div > h3",
+    "RateAccountPerformanceButton":"div.main-content-inner2 > div > div > button",
+    "RateAccountPerformanceModal":[
+        {
+            "modal":"div.opacity-100 > div.inline-block",
+            "modaltitle":"div > h4",
+            "PartnersAccountLabelandDropdownmenu":"form > div > div:nth-child(1)",
+            "TypeOfReviewLabelandThelists":"form > div > div:nth-child(2)",
+            "StartRatingLabelandThe5StarsElement":"form > div > div:nth-child(3)",
+            "AdditionalInformationScreenshotsLabelandButton":"form > div > div:nth-child(4)",
+            "AnyadditionalNotesRelatedToThisRatingLabelandTextareafield":"form > div > div:nth-child(5)",
+            "CancelButton":"form > div > div:nth-child(6) > button:nth-child(1)",
+            "SubmitButton":"form > div > div:nth-child(6) > button:nth-child(2)"
+        }
+    ],
+    "AccountPerformanceReviewModal":[
+        {
+            "modal":"div > div.inline-block",
+            "modaltitle":"div > h4",
+            "PartnersAccountLabelandClientName":"div.mt-8 > div.border-grayscale-500 > div:nth-child(1)",
+            "ReviewerLabelandReviewerName":"div.mt-8 > div.border-grayscale-500 > div:nth-child(2)",
+            "DateAddedLabelandTheDate":"div.mt-8 > div.border-grayscale-500 > div:nth-child(3)",
+            "TypeLabelandTheSelectedType":"div.mt-8 > div.border-grayscale-500 > div:nth-child(4)",
+            "RatingLabelandTheStars":"div.mt-8 > div.border-grayscale-500 > div:nth-child(5)",
+            "FilesUploadedLabelandTheFile":"div.mt-8 > div.grid-cols-5 > div:nth-child(1)",
+            "AdditionalNotesLabelandTheNotes":"div.mt-8 > div.grid-cols-5 > div:nth-child(2)"
+        }
+    ]
+}

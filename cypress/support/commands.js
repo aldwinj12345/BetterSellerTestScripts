@@ -23,3 +23,33 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import 'cypress-file-upload'
+import 'cypress-iframe';
+require('cypress-iframe');
+
+Cypress.Commands.add('userloginaccount', (unlocator, pwlocator, submitbuttonlocator, username, password) => {
+    cy.get(unlocator).type(username)
+    cy.get(pwlocator).type(password)
+    cy.get(submitbuttonlocator).click()
+      .wait(5000)
+})
+
+
+Cypress.Commands.add('verifyEachNameonTheList', (locator, listOptions) => {
+  cy.get(locator).each(($option, index) => {
+    cy.wrap($option).realHover()  //verify names based on the expected options
+      .should('exist')
+      .and('be.visible')
+      .and('have.text', listOptions[index])
+      .and('have.css', 'color', 'rgb(255, 255, 255)')           //text color
+      .and('have.css', 'background-color', 'rgb(239, 68, 68)')  //background color when hover
+  });
+});
+
+Cypress.Commands.add('getMessagepopup', (locator, message) => {
+  cy.get(locator)
+    .should('exist')
+    .and('be.visible')
+    .and('contain', message)
+})

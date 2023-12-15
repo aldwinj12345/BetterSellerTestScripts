@@ -1,0 +1,20 @@
+{
+    "workspacenavlink":"div.flex-1 > a[href='/home'][aria-current='page']",
+    "clientsnavlink":"div.flex-1 > a[href='/clients/active']",
+    "billingnavlink":"div.flex-1 > a:nth-child(3)",
+    "leadsnavlink":"div.flex-1 > a[href='/leads']",
+    "marketingnavlink":"div.flex-1 > a[href='/leads-marketing-module']",
+    "salesnavlink":"div.flex-1 > a[href='/sales/workplace']",
+    "writingnavlink":"div.flex-1 > a[href='/writing/workspace/my']",
+    "designnavlink":"div.flex-1 > a[href='/design/analytics']",
+    "adminnavlink":"div.flex-1 > a[href='/employees']",
+    "settingsnavlink":"div.flex-1 > a[href='/user-settings']",
+    "=====":"==================================================",
+    "BELOW_ARE_THE_NAVBUTTONS_FORCLIENTPARTNERS":"**************************",
+    "ClientWorkSpacenavlink":"div > a[href='/home']",
+    "ClientPlannavlink":"div.flex-1 > a:nth-child(2)",
+    "ClientInvoicesnavlink":"div > a[href='/additional-services']",
+    "ClientMockupnavlink":"div.flex-1 > a:nth-child(4)",
+    "ClientComplaintsnavlink":"div.flex-1 > a:nth-child(5)",
+    "ClientSettingsnavlink":"div > a[href='/user-settings']"
+}

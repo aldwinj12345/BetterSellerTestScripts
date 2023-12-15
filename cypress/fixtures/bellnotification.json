@@ -1,0 +1,12 @@
+{
+    "belliconbutton":"div > button.border-transparent",
+    "notificationoverflowpanel":"div.overflow-y-auto > div > ul",
+    "notificationpaneltitle":"div.absolute > div.bg-white > span.text-grayscale-900",
+    "datecategory":"ul > li.bg-grayscale-300:nth-child(1) > p",
+    "checkmark":"ul > li.bg-grayscale-300:nth-child(1) > ul > li > div > div.bg-success > svg",
+    "clientname":"li:nth-child(1) > ul > li:nth-child(1) > div.grid > div.col-span-6 > p:nth-child(1)",
+    "notificationmessage":"li:nth-child(1) > ul > li:nth-child(1) > div.grid > div.col-span-6 > p:nth-child(2)",
+    "whatitis":"li:nth-child(1) > ul > li:nth-child(1) > div.grid > div.col-span-6 > p:nth-child(3)",
+    "bluedotbesidethenotificationmessage":"ul > li.bg-grayscale-300:nth-child(1) > ul > li > div > div.items-end",
+    "userlogomark":"li:nth-child(1) > ul > li:nth-child(1) > div.grid > div > div > div > span"
+}

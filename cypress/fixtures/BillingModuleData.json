@@ -1,0 +1,160 @@
+{
+    "cssSelectors":[
+        {
+            "InvoicesPage":[
+                {
+                    "pageTitle":"div > h1",
+                    "pageTabs":[
+                        {
+                            "DraftTab":"nav[aria-label='Tabs'] > button:nth-child(1)",
+                            "PendingTab":"nav[aria-label='Tabs'] > button:nth-child(2)",
+                            "SentTab":"nav[aria-label='Tabs'] > button:nth-child(3)",
+                            "OverDueTab":"nav[aria-label='Tabs'] > button:nth-child(4)",
+                            "PaidTab":"nav[aria-label='Tabs'] > button:nth-child(5)",
+                            "PartiallyPaidTab":"nav[aria-label='Tabs'] > button:nth-child(6)",
+                            "VoidTab":"nav[aria-label='Tabs'] > button:nth-child(7)",
+                            "UnpaidTab":"nav[aria-label='Tabs'] > button:nth-child(8)"
+                        }
+                    ]
+                }
+            ],
+            "CommissionErrorsPage":[
+                {
+                    "pageTitle":"div > h1",
+                    "pageTabs":[
+                        {
+                            "PendingTab":"nav[aria-label='Tabs'] > button:nth-child(1)",
+                            "ResolvedTab":"nav[aria-label='Tabs'] > button:nth-child(2)"
+                        }
+                    ]
+                }
+            ],
+            "PaymentsPage":[
+                {
+                    "pageTitle":"div > h2"
+                }
+            ],
+            "TransactionsPage":[
+                {
+                    "pageTitle":"div > h1"
+                }
+            ],
+            "EventsPage":[
+                {
+                    "pageTitle":"div > h2"
+                }
+            ],
+            "UpsellsPage":[
+                {
+                    "pageTitle":"div > h2",
+                    "pageTabs":[
+                        {
+                            "AwaitingApprovalTab":"nav[aria-label='Tabs'] > button:nth-child(1)",
+                            "ApprovedTab":"nav[aria-label='Tabs'] > button:nth-child(2)",
+                            "PendingTab":"nav[aria-label='Tabs'] > button:nth-child(3)",
+                            "PaidTab":"nav[aria-label='Tabs'] > button:nth-child(4)",
+                            "RejectedTab":"nav[aria-label='Tabs'] > button:nth-child(5)"
+                        }
+                    ],
+                    "BillingUpsellRequestModal":[
+                        {
+                            "modal":"div.opacity-100 > div.transition-all",
+                            "modaltitle":"div > h3 > div > span",
+                            "logsButton":"div > h3 > div > div > button",
+                            "DenyButton":"div.mt-8 > button:nth-child(1)",
+                            "ApproveButton":"div.mt-8 > button:nth-child(2)",
+                            "YourUpsellRequestWasRejectedSection":"div.pt-0 > div.mb-4",
+                            "StatusLabelandstatus":"div.pt-0 > div.mt-3 > div > div:nth-child(7)"
+                        }
+                    ],
+                    "LettheaccountmanagerknowwhyyourejectedtheupsellrequestModal":[
+                        {
+                            "modal":"#headlessui-portal-root > div:nth-child(2) > div > div > div > div:nth-child(2) > div",
+                            "modaltitle":"div.px-12 > h3",
+                            "ReasonforRejectionLabelandTextareafield":"form > div > div > div",
+                            "CancelButton":"form > div:nth-child(2) > button:nth-child(1)",
+                            "SubmitButton":"form > div:nth-child(2) > button:nth-child(2)"
+                        }
+                    ],
+                    "ThisupsellrequesthasbeenapprovedModal":[
+                        {
+                            "modal":"div.min-h-screen > div.max-w-lg",
+                            "modaltitleandcheckLogo":"div.max-w-lg > h3",
+                            "DoyouwanttosendtheclientthebillingsummaryemailTEXT":"div.max-w-lg >div.my-8 > div",
+                            "NoButton":"div.max-w-lg >div.mt-4 > button:nth-child(1)",
+                            "SendEmailButton":"div.max-w-lg >div.mt-4 > button:nth-child(2)"
+                        }
+                    ],
+                    "AreyousureyouwanttoresendthebillingsummaryinvoiceemailtotheclientModal":[
+                        {
+                            "modal":"div.min-h-screen > div.max-w-lg",
+                            "modaltitle":"div.max-w-lg > h3",
+                            "ClientEmailAddressText":"div.min-h-screen > div.max-w-lg > div.my-8 > div",
+                            "CancelButton":"div.min-h-screen > div.max-w-lg > div.mt-4 > button:nth-child(1)",
+                            "ResendButton":"div.min-h-screen > div.max-w-lg > div.mt-4 > button:nth-child(2)"
+                        }
+                    ]
+                }
+            ],
+            "CreditNotesPage":[
+                {
+                    "pageTitle":"div > h2",
+                    "pageTabs":[
+                        {
+                            "AwaitingApprovalTab":"nav[aria-label='Tabs'] > button:nth-child(1)",
+                            "ApprovedTab":"nav[aria-label='Tabs'] > button:nth-child(2)",
+                            "AppliedPartialTab":"nav[aria-label='Tabs'] > button:nth-child(3)",
+                            "AppliedTab":"nav[aria-label='Tabs'] > button:nth-child(4)",
+                            "DeniedTab":"nav[aria-label='Tabs'] > button:nth-child(5)"
+                        }
+                    ],
+                    "CreditNoteRequestModal":[
+                        {
+                            "modal":"div.opacity-100 > div.inline-block",
+                            "modaltitle":"div > h3",
+                            "UpselltoCreditRequestClientNameLabelandName":"div.sm\\:grid > div:nth-child(1)",
+                            "UpselltoCreditRequestDatelabelandDate":"div.sm\\:grid > div:nth-child(2)",
+                            "UpselltoCreditRequestUpsellItemLabelandUpsellItem":"div.sm\\:grid > div:nth-child(3)",
+                            "UpselltoCreditRequestQuantityLabelandNumber":"div.sm\\:grid > div:nth-child(4)",
+                            "UpselltoCreditRequestUnitePriceLabelandUnitPrice":"div.sm\\:grid > div:nth-child(5)",
+                            "UpselltoCreditRequestTotalLabelandTotal":"div.sm\\:grid > div:nth-child(6)",
+                            "UpselltoCreditRequestUpsellDescriptionLabelandUpsellDescription":"div.sm\\:grid > div:nth-child(7)",
+                            "UpselltoCreditRequestServiceASINsLabel":"div.sm\\:grid > div:nth-child(8)",
+                            "UpselltoCreditRequestASIN1andTheASIN":"div.sm\\:grid > div:nth-child(9)",
+                            "UpselltoCreditRequestNoteLabelandNote":"div.sm\\:grid > div:nth-child(10)",
+                            "DenyButton":"div.mt-8> button:nth-child(1)",
+                            "ApproveButton":"div.mt-8> button:nth-child(2)",
+                            "CreditNoteDetailsLabel":"form > div.flex > p",
+                            "AmountLabelandValue":"form > div > div:nth-child(4)",
+                            "ZohoCreditNoteLabelandCNNumber":"form > div > div:nth-child(5)",
+                            "CreditsappliedtoinvoicesLabel":"form > div > div > div.flex-col > label",
+                            "RemainingCreditsLabelandAmount":"div.pt-8 > div:nth-child(1)",
+                            "CreditsAppliedLabelandAmount":"div.pt-8 > div:nth-child(2)"
+                        }
+                    ],
+                    "WhatsthereasonfordenyingthiscreditnoterequestModal":[
+                        {
+                            "modal":"div.z-30 > div > div > div.inline-block",
+                            "modaltitle":"div.z-30 > div > div > div.inline-block > div > h3",
+                            "ReasonTextareafield":"textarea[name='reason']",
+                            "CancelButton":"form > div > div > button:nth-child(1)",
+                            "DenyButton":"form > div > div > button:nth-child(2)"
+                        }
+                    ],
+                    "AreyousureyouwanttoapprovetherequesttowaivetheupsellfeeModal":[
+                        {
+                            "modal":"div.min-h-screen > div.max-w-xl",
+                            "modaltitle":"div.max-w-xl > h3",
+                            "IfyouclickapproveapaidinvoicewillbeautomaticallygeneratedTEXT":"div.my-8 > div > p",
+                            "CancelButton":"div.mt-4 > button:nth-child(1)",
+                            "ApproveButton":"div.mt-4 > button:nth-child(2)"    
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "TestData":[
+
+    ]
+}

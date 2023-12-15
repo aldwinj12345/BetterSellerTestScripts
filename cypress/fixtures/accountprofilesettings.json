@@ -1,0 +1,9 @@
+{
+    "useraccountprofilepicinitial":"div > button.bell-notif",
+    "signoutlinktext":"div > a[href='/sign-out']",
+    "usersettings":".flex .text-red-400",
+    "useremailaddress":".space-y-2 .text-xs",
+    "userrole":".space-y-2 .text-1xs",
+    "username":".space-y-2 .text-sm",
+    "initiallogo":".space-y-2 >span > span"
+}

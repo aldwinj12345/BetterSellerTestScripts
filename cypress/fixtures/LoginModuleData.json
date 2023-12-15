@@ -1,0 +1,26 @@
+{
+    "cssSelectors":[
+        {
+            "emailaddressInputfield":"#email",
+            "EmailAddressLabel":"label[for='email']",
+            "passwordInputfield":"#password",
+            "PasswordLabel":"label[for='password']",
+            "bettersellerLogo":"div > img",
+            "bettersellerHeaderTitle":"div > h2",
+            "remembermeCheckbox":"#rememberMe[type='checkbox']",
+            "remembermeLabel":"label[for='remember_me']",
+            "forgotyourpasswordLinktext":"div > a[href='/forgot-password']",
+            "submitButton":"button[type='submit']",
+            "Enteryouremailtoyourresetpassword":"div > p",
+            "Didyourememberyourpassword":"div.pt-4",
+            "TrylogginginLinktext":"div > a[href='/sign-in']",
+            "resetpasswordsuccessinfotext":".bg-white .my-4"
+        }
+    ],
+    "testData":[
+        {
+            "testURL1":"https://agency.test.better-seller.betterseller.com/",
+            "testURL2":"https://agency.staging.better-seller.betterseller.com/"
+        }
+    ]
+}

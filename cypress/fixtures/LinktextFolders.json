@@ -1,0 +1,92 @@
+{
+    "CLIENTmodules":[
+        {
+            "ActiveClients_linktextFolder":"#afterclass > div > a[href='/clients/active']",
+            "ForOnboarding_linktextFolder":"#afterclass > div > a[href='/clients/foronboarding']",
+            "ForTermination_linktextFolder":"#afterclass > div > a[href='/clients/fortermination']",
+            "InactiveClients_linktextFolder":"#afterclass > div > a[href='/clients/inactive']",
+            "AllClients_linktextFolder":"#afterclass > div > a[href='/clients/all']",
+            "Records_linktextFolder":"#afterclass > div > a[href='/clients/records']",
+            "RatingDashboard_linktextFolder":"#afterclass > div > a[href='/clients/performance-ratings']",
+            "AccountPerformance_linktextFolder":"#afterclass > div > a[href='/clients/accounts-performance']",
+            "PPCDashboard_linktextFolder":"#afterclass > div > a[href='/clients/ppc']",
+            "Complaints_linktextFolder":"#afterclass > div > a[href='/clients/complaints']",
+            "ClientSurvey_linktextFolder":"#afterclass > div > a[href='/clients/surveys']"
+        }
+    ],
+    "BILLINGmodules":[
+        {
+            "Invoice_linktextFolder":"#afterclass > div:nth-child(2) > a[aria-current='page']",
+            "CommissionErrors_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/commission-errors']",
+            "Payments_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/payments']",
+            "Transactions_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/transactions']",
+            "Events_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/events']",
+            "CreditNotes_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/credit-notes']",
+            "Upsells_linktextFolder":"#afterclass > div:nth-child(2) > a:nth-child(8)",
+            "UpsellItems_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/addons']",
+            "Taxes_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/taxes']",
+            "TaxExemptions_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/tax-exemptions']",
+            "Plans_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/plans']",
+            "Terminations_linktextFolder":"#afterclass > div:nth-child(2) > a[href='/billing/terminations']"
+        }
+    ],
+    "LEADSmodules":[
+        {
+            "MyWorkplace_linktextFolder":"#afterclass > div > a[href='/leads']",
+            "Records_linktextFolder":"#afterclass > div > a[href='/leads-data']",
+            "Metrics_linktextFolder":"#afterclass > div > a[href='/leads-metrics']",
+            "Settings_linktextFolder":"#afterclass > div > a[href='/leads-settings']",
+            "Archived_linktextFolder":"#afterclass > div > a[href='/leads-archived']",
+            "NoSellerInfo_linktextFolder":"#afterclass > div > a[href='/leads-no-seller']",
+            "LeadGeneration_linktextFolder":"#afterclass > div > a[href='/lead-generation']"
+        }
+    ],
+    "MARKETINGmodules":[
+        {
+            "MyWorkplace_linktextFolder":"#afterclass > div > a[href='/leads-marketing-module']"
+        }
+    ],
+    "SALESmodules":[
+        {
+            "MyWorkplace_linktextFolder":"#afterclass > div > a[href='/sales/workplace']",
+            "Deals_linktextFolder":"#afterclass > div > a[href='/sales/deals']",
+            "Metrics_linktextFolder":"#afterclass > div > a[href='/sales-metrics']"
+        }
+    ],
+    "WRITINGmodules":[
+        {
+            "MyWorkSpace_linktextFolder":"#afterclass > div > a[href='/writing/workspace/my']",
+            "TeamWorkSpace_linktextFolder":"#afterclass > div > a[href='/writing/workspace/team']",
+            "Metrics_linktextFolder":"#afterclass > div > a[href='/writing/analytics']",
+            "Pending_linktextFolder":"#afterclass > div > a[href='/writing/open']",
+            "RestrictedKeywords_linktextFolder":"#afterclass > div > a[href='/writing/restricted-keywords']"
+        }
+    ],
+    "DESIGNmodules":[
+        {
+            "Metrics_linktextFolder":"#afterclass > div > a[href='/design/analytics']",
+            "Pending_linktextFolder":"#afterclass > div > a[href='/design/open']"
+        }
+    ],
+    "ADMINmodules":[
+        {
+            "Employees_linktextFolder":"#afterclass > div > a[href='/employees']",
+            "Partners_linktextFolder":"#afterclass > div > a[href='/partners']",
+            "Churn_linktextFolder":"#afterclass > div > a[href='/churn']",
+            "Reports_linktextFolder":"#afterclass > div > a[href='/reports']",
+            "DataSync_linktextFolder":"#afterclass > div > a[href='/data-sync']",
+            "Settings_linktextFolder":"#afterclass > div > a[href='/system-settings']",
+            "TaskManagement_linktextFolder":"#afterclass > div > a[href='/task-management']",
+            "Progress_Reports_linktextFolder":"#afterclass > div > a[href='/progress-report']"
+        }
+    ],
+    "SETTINGSmodules":[
+
+    ],
+    "ClientPartnerInvoicesModules":[
+        {
+            "AdditionalServices_linktextFolder":"#afterclass > div > a[href='/additional-services']",
+            "InvoiceHistory_linktextFolder":"#afterclass > div > a[href='/invoice-history']"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "titlemodule":"div#afterclass > div > div.w-full",
+    "adminmoduleLinkFolders":[
+        {
+            "EmployeeFolderLink":"div > a[href='/employees']",
+            "PartnersFolderLink":"div > a[href='/partners']",
+            "ChurnFolderLink":"div > a[href='/churn']",
+            "ReportsFolderLink":"div > a[href='/reports']",
+            "DataSyncFolderLink":"div > a[href='/data-sync']",
+            "SettingsFolderLink":"div > a[href='/system-settings']",
+            "TaskManagementFolderLink":"div > a[href='/task-management']",
+            "ProgressReportsFolderLink":"div > a[href='/progress-report']"
+        }
+    ],
+    "EmployeesFolder":[],
+    "PartnersFolder":[],
+    "ChurnFolder":[],
+    "ReportsFolder":[],
+    "DataSyncFolder":[],
+    "SettingsFolder":[],
+    "TaskManagementFolder":[
+        {
+            "titlepage":"div.main-content-inner2 > div > div > h2",
+            "Addbutton":"div.main-content-inner2 > div > div > button",
+            "SelectaTemplatetoStartWithModal":[
+                {
+                    "modal":"div.opacity-100 > div.inline-block",
+                    "TaskListCreationTitle":"div.opacity-100 > div.inline-block > div:nth-child(1) > h3",
+                    "SelectaTemplatetoStartWithTitle":"div.opacity-100 > div.inline-block > div:nth-child(2) > h1",
+                    "onboardingTemplate":"form > div > div:nth-child(1) > div:nth-child(1)",
+                    "recurringTemplate":"form > div > div:nth-child(1) > div:nth-child(3)",
+                    "onetimeTemplate":"form > div > div:nth-child(1) > div:nth-child(4)",
+                    "nextbutton":"form > div > div:nth-child(2) > button",
+                    "TemplateNameInputFieldandLabel":"form > div > div:nth-child(1)",
+                    "ErrorText1":"form > div > div:nth-child(1) > div",
+                    "PartnerTypeLabelandDropdownmenu":"form > div > div:nth-child(2)",
+                    "ErrorText2":"form > div > div:nth-child(2) > div > div",
+                    "WhichservicecategorywillthisbeusedLabelandDropdownmenu":"form > div > div:nth-child(3)",
+                    "ErrorText3":"form > div > div:nth-child(3) > div",
+                    "backbutton":"form > div > div:nth-child(4) > button:nth-child(1)",
+                    "createbutton":"form > div > div:nth-child(4) > button:nth-child(2)"
+                }
+            ],
+            "NewTab":"nav[aria-label='Tabs'] > div:nth-child(1)",
+            "ExistingTab":"nav[aria-label='Tabs'] > div:nth-child(2)",
+            "OnboardingTab":"div.tabnav > a:nth-child(1)",
+            "RoadmapTab":"div.tabnav > a:nth-child(2)",
+            "RecurringTab":"div.tabnav > a:nth-child(3)",
+            "OneTimeTab":"div.tabnav > a:nth-child(4)"
+
+        },
+        {
+            "taskedPage":"-----TASKED PAGE -----",
+            "tasknametitle":"form > div:nth-child(2) > h3",
+            "UpdateButton":"form > div:nth-child(2) > button",
+            "pagesettings":"form > div:nth-child(3) > div:nth-child(1)",
+            "tasktitleh4":"div.main-content-inner2 > div > div > div:nth-child(1) > h4",
+            "AddTaskButton":"div.main-content-inner2 > div > div > div:nth-child(1) > button",
+            "taskNameInputfield":".p-4 > .grid > :nth-child(1) > .form-input",
+            "taskDescriptionInputfield":".p-4 > .grid > :nth-child(2) > .form-input",
+            "check_submit_save_button":".space-x-2 > .border-secondary",
+            "deletebutton":".p-4 > .grid > .space-x-2 > .border-grayscale-700",
+            "recurringbutton":".p-4 > .grid > :nth-child(3) > div > button",
+            "departmentselectmenu":".p-4 > .grid > :nth-child(4) > select"
+        }
+    ],
+    "ProgressReportsFolder":[]
+}

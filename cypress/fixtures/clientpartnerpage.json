@@ -1,0 +1,79 @@
+{
+    "navigationmodulebuttons":[
+        {
+            "plannavbutton":"div.w-full > div.flex-1 > a:nth-child(1)",
+            "invoicesnavbutton":"div.w-full > div.flex-1 > a:nth-child(2)",
+            "mockupnavbuton":"div.w-full > div.flex-1 > a:nth-child(3)",
+            "complaintsnavbutton":"div.w-full > div.flex-1 > a:nth-child(4)",
+            "settingsnavbutton":"div.w-full > div.flex-1 > a:nth-child(5)"
+        }
+    ],
+
+    "planpage":[
+        {
+            "plantitlepage":""
+        }
+    ],
+    "invoicespage":[
+        {
+            "sidepanelbuttons":[
+                {
+                    "sidepanel":"div#afterclass > div:nth-child(2)",
+                    "invoicetitlepage":"div#afterclass > div:nth-child(2) > div",
+                    "additionalservicesbutton":"div#afterclass > div:nth-child(2) > a.text-red-500",
+                    "invoicehistorybutton":"div#afterclass > div:nth-child(2) > a:nth-child(3)"
+                }
+            ],
+            "additionalservicespage":[
+                {
+                    "additionalservicespagetitle":"div > h2",
+                    "pendingtab":"div.tab-container > nav > button:nth-child(1)",
+                    "paidtab":"div.tab-container > nav > button:nth-child(2)"
+                }
+            ],
+            "additionalserviceinvoicenumberpage":[
+                {
+                    "arrowleftbutton":"div.px-5 > div > div.items-center > a > svg",
+                    "invoicenumbertitle":"div.px-5 > div > div.items-center > h3",
+                    "status":"div.px-5 > div.flex > div.items-center > span.bg-yellow-100",
+                    "printericon":"div.flex > button[title='Print']",
+                    "downloadPDFbutton":"div.flex > button[title='Download PDF']",
+                    "billtolabel":"div.self-end > span",
+                    "clientfullName":"div.self-end > p.mt-4",
+                    "cityaddress":"div.self-end > p:nth-child(3)",
+                    "StreetProvinceCode":"div.self-end > p:nth-child(5)",
+                    "country":"div.self-end > p:nth-child(6)",
+                    "invoicedatelabel":"div> div.grid > span:nth-child(1)",
+                    "dateofsubmission":"div> div.grid > span:nth-child(2)",
+                    "termslabel":"div> div.grid > span:nth-child(3)",
+                    "termnet5":"div> div.grid > span:nth-child(4)",
+                    "duedatelabel":"div> div.grid > span:nth-child(5)",
+                    "duedate":"div> div.grid > span:nth-child(6)",
+                    "referencelabel":"div> div.grid > span:nth-child(7)",
+                    "referencevalue":"div> div.grid > span:nth-child(8)",
+                    "amountduelabel":"div > h4",
+                    "dollarsignOnAmount":"div > span.text-grayscale-600",
+                    "TheAmountTotalProductCost":"div > span.text-grayscale-900",
+                    "totalproductcostlabel":"div.flex > span.text-xs",
+                    "viewscopeofservicebutton":"div.bg-white > button.text-secondary-light",
+                    "endingvisa":"div.px-5 > div.py-2",
+                    "usedifferentcard":"div.px-5 > div.pt-2",
+                    "securecheckout":"div.px-5 > div.justify-around",
+                    "payoutbutton":"div.px-5 > button",
+                    "subtotallabel":"div.col-span-2 > div.grid > div:nth-child(1)",
+                    "subtotalamount":"div.col-span-2 > div.grid > div:nth-child(2)",
+                    "ontario13percentlabel":"div.col-span-2 > div.grid > div:nth-child(3)"
+                }
+            ]
+        }
+    ],
+    "mockuppage":[
+
+    ],
+    "complaintspage":[
+
+    ],
+    "settingspage":[
+
+    ]
+}

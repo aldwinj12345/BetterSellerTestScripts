@@ -1,0 +1,7 @@
+{
+    "authenticationerror":".ml-3 .font-inter",
+    "loginerrormessage":".ml-3 .font-sourceSansPro",
+    "updatesuccessmessagepopup":".ml-3 .font-inter",
+    "updatemessage":".ml-3 .font-sourceSansPro",
+    "notificationmessagedeleteicon":".ml-4 .bg-white"
+}
